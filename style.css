@@ -1,0 +1,168 @@
+body {
+    font: bold 14px/1.4 system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0 ;
+}
+
+/* @keyframes borsh {
+  from {
+
+    opacity: 0;
+
+  }
+}
+
+.conteiner:nth-child(1) {
+
+  animation: borsch 2s easy 3.5s both;
+  opacity: 1;
+  transition-delay: 0.5s;
+
+}
+
+.conteiner:nth-child(2) {
+
+  animation: borsch 2s easy 1s;
+  opacity: 1;
+  transition-delay: 1s;
+
+}
+
+.conteiner:nth-child(3) {
+
+  animation: borsch 2s easy 1s;
+  opacity: 1;
+  transition-delay: 1s;
+
+}
+
+.conteiner:nth-child(4) {
+  
+  animation: borsch 2s easy 1s;
+  opacity: 1;
+  transition-delay: 1s;
+
+} */
+
+
+
+h1 {
+  text-transform: uppercase;
+  color: orange;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  text-shadow: 0px 0px 16px rgb(190, 137, 38);
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  height: 55px;
+}
+
+footer {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: right;
+}
+
+span {
+  color: orange;
+  text-transform: capitalize;
+  margin: 10px 0px 0 0;
+  padding: 15px;
+  text-align: right;
+  text-shadow: 0px 0px 6px rgb(190, 137, 38);
+  position: relative;
+  top: 10px;
+}
+
+sup {
+  color: orange;
+  text-transform: capitalize;
+  margin: 0 10px 0 0;
+  padding-top: 15px;
+  text-align: right;
+  text-shadow: 0px 0px 6px rgb(190, 137, 38);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  text-transform: capitalize;
+  padding-bottom: 3px;
+  font-size: large;
+}
+
+a::before {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transform: scaleX(0);
+  transform-origin: right;
+  position: absolute;
+  transition: transform 0.4s;
+  left: 0;
+  bottom: 0;
+}
+
+a:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+  
+}
+
+a::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: orange;
+  transform: scaleX(0);
+  transform-origin: right;
+  position: absolute;
+  transition: transform 1s;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0px 0px 12px 0px rgb(255, 205, 69);
+}
+
+a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+  
+}
+
+.animated {
+  top: 100px;
+  left: 42%;
+}
+
+.c1 {
+  top: 250px;
+  left: 7%;
+}
+
+.c2 {
+  top: 250px;
+  left: 22%;
+}
+
+.c3 {
+  top: 250px;
+  left: 37%;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: orange;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>creditcard</title>
+  <style>
+
+    body {
+      background-color: cadetblue;
+      padding: 50px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,  Arial, sans-serif;
+    }
+
+    .conteiner {
+      background-color: darkolivegreen;
+      color: azure;
+      padding: 50px;
+      max-width: 300px;
+      border-radius: 35px;
+    }
+
+    span {
+      bottom: 38px;
+      left: 11%;
+      position: relative;
+    }
+
+    p {
+      text-transform: capitalize;
+    }
+
+    .dm, .gg, .cvv {
+      max-width: 50px;
+      text-align: center;
+    }
+
+    .text {
+      background-color: orange;
+      max-width: 300px;
+      position: relative;
+      padding: 10px;
+      left: -80px;
+      border-radius: 35px;
+    }
+
+    h2 {
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    input {
+      padding: 5px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <form action="">
+  
+    <div class="conteiner"> 
+      
+      <div class="text">
+        <h2>credit card detail</h2>
+      </div>
+
+      <p>card number</p>
+      
+      <input type="text" name="cardnumb" class="number" placeholder="1234 5678 9078 0987">
+
+      <p>name on card</p>
+
+      <input type="text" class="nameing" name="nameuser" placeholder="Name Surname">
+
+      <p>expiry date</p>  
+
+      <input type="text4" name="daymonthyear" class="dm" placeholder="02">
+
+      <input type="text2" name="year" class="gg" placeholder="43">
+
+      <span>CVV</span>
+
+      <input type="password" name="cvv" class="cvv" placeholder="***">
+
+    </div>
+
+  </form>
+  
+</body>
+
+</html>

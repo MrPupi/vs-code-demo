@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>loremsite</title>
+  <style>
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: lightgray;
+    }
+
+    header {
+      background-color: darkslategrey;
+      text-transform: capitalize;
+      text-decoration: none;
+      color: azure;
+      display: flex;
+    }
+
+    .head {
+      position: relative;
+      display: flex;
+      left: 750px;
+      bottom: 40%;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+    }
+
+    li a {
+      padding: 0 25px 0 25px;
+      text-decoration: none;
+      color: azure;
+    }
+
+    h3 {
+      margin: 0;
+      padding: 15px;
+      position: relative;
+      top: 12%;
+    }
+
+    blockquote::after {
+      content: ";
+    }
+
+    blockquote::before {
+      content: "; 
+    }
+
+    .conteiner, .imagl, .events {
+      display: grid;
+    }
+
+    .conteiner {
+      grid-template-columns: 1fr 400px;
+    }
+
+    .imagl {
+      background-color: cadetblue;
+      margin: 15px 10px 15px 48px;
+      max-width: 1200px;
+    }
+
+    .imagl h2 {
+      margin: 30px 40px 0 40px ;
+      text-transform: capitalize;
+      color: azure;
+    }
+
+    .imagl p {
+      margin: 0 40px;
+    }
+
+    .aga {
+      max-width: 1200px;
+      margin: 0;
+    }
+
+    .events {
+      max-width: 300px;
+      background-color: cadetblue;
+      margin: 15px 0;
+    }
+
+    .cal img {
+      height: 30px;
+      padding-right: 10px;
+    }
+     
+    ul {
+      list-style-type: none;
+    }
+
+    span {
+      margin: 10px 15px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <h3>lorem site</h3>
+      <ul class="head">
+        <li><a href="#">news</a></li>
+        <li><a href="#">events</a></li>
+        <li><a href="#">courses</a></li>
+        <li><a href="#">jobs</a></li>
+        <li><a href="#">tests</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="conteiner">
+
+    <div class="imagl">
+      <h2>
+        what is lorem ipsum
+      </h2>     
+      <p>30/03/2019 11:00</p>
+      <img class="aga" src="../html5img.png" alt="">
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate assumenda ut sequi fugit, aliquid nesciunt aperiam eveniet quos ab sint iure rem minus, officiis pariatur, dignissimos atque eaque nulla ea.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure vel laborum doloribus, libero molestias nesciunt, iusto labore sequi ut rerum natus. Fugit possimus sit nesciunt nam iure, repudiandae laborum? Vel.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita incidunt dolorum rem iure est amet, sunt, tenetur quos quo rerum repellat eaque quas! Unde nemo iusto magnam voluptas harum dicta.
+      </span>
+    </div>
+
+    <div class="events">
+
+      <h3>events</h3>
+
+      <ul class="cal">
+        <li><a href="#"><img src="../calendar_7.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, eos, commodi voluptate, saepe itaque animi impedit tenetur nostrum quia corrupti illum. </a></li>
+        <li><a href="#"><img src="../calendar_19.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, eos, commodi voluptate, saepe itaque animi impedit tenetur nostrum quia corrupti illum. </a></li>
+        <li><a href="#"><img src="../calendar_27.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, eos, commodi voluptate, saepe itaque animi impedit tenetur nostrum quia corrupti illum. </a></li>
+        <li><a href="#"><img src="../calendar_7.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, eos, commodi voluptate, saepe itaque animi impedit tenetur nostrum quia corrupti illum. </a></li>
+        <li><a href="#"><img src="../calendar_19.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, eos, commodi voluptate, saepe itaque animi impedit tenetur nostrum quia corrupti illum. </a></li>
+        <li><a href="#"><img src="../calendar_27.png" alt=""> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, eos, commodi voluptate, saepe itaque animi impedit tenetur nostrum quia corrupti illum. </a></li>
+      </ul>
+
+      <div class="citat">
+
+        <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt assumenda ut eaque omnis ullam temporibus veniam cupiditate ea nam delectus enim facere quisquam sunt vel quidem, sint ab nulla placeat?</blockquote>
+
+      </div>
+    </div>
+
+  </div>
+  
+</body>
+</html>

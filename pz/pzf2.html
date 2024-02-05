@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>randominputs</title>
+  <style>
+    .knopki button {
+      border-radius: 5px;
+      border: none;
+      width: 75px;
+      padding: 5px;
+      display: inline;
+    }
+
+    .plusminus {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: none;
+    }
+
+    #green {
+      background-color: green;
+    }
+
+    #red {
+      background-color: red;
+    }
+
+    .all {
+      display: flex;
+      gap: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section>
+    <form action="formrea1.html" method="get">
+      <div>
+        <p>inputs</p>
+
+        <input type="text" class="norm" placeholder="place for text">
+
+        <input type="text" class="valid" placeholder="valid input">
+
+        <input type="text" class="invalid" placeholder="invalid input">
+
+        <p>check boxes</p>
+
+        <input type="checkbox">
+
+        <input type="checkbox">
+
+        <div>
+
+          <p>radio buttons</p>
+
+          <input type="radio" name="radio" value="m" id="male">
+
+          <label for="radio">Male</label>
+
+          <input type="radio" name="radio" value="woo" id="female">
+
+          <label for="radio">Female</label>
+
+        </div>
+
+        <p>buttons</p>
+
+        <div class="all">
+          <div class="knopki">
+            <button style="background-color: lightgreen;">active</button>
+            <button style="background-color: green;">hover</button>
+            <button style="background-color: pink;">danger</button>
+            <button style="background-color: brown;">hover</button>
+            <button style="background-color: grey;">disabled</button>
+          </div>
+          <div>
+            <button class="plusminus" id="green">+</button>
+            <button class="plusminus" id="red">-</button>
+          </div>
+        </div>
+
+        <p>textarea</p>
+
+        <textarea name="''" id="''" style="width: 300px; height: 35px;" placeholder="Enter some text"></textarea>
+
+      </div>
+    </form>
+  </section>
+
+</body>
+
+</html>
