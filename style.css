@@ -140,22 +140,26 @@ a:hover::after {
 
 .animated {
   top: 100px;
-  left: 42%;
+  left: 45%;
+  position: fixed;
 }
 
 .c1 {
   top: 250px;
-  left: 7%;
+  left: 36%;
+  position: fixed;
 }
 
 .c2 {
   top: 250px;
-  left: 22%;
+  left: 46.5%;
+  position: fixed;
 }
 
 .c3 {
   top: 250px;
-  left: 37%;
+  left: 59%;
+  position: fixed;
 }
 
 ::-webkit-scrollbar-thumb {
