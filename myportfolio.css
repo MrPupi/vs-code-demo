@@ -7,6 +7,12 @@ body {
   overflow-x: hidden;
 }
 
+@media screen and (min-width:414px){
+  
+}
+  
+
+
 .about {
   /* box-shadow: 0px 0px 45px 6px rgba(255, 0, 0, 1); */
   transform: translate(565px, -100px);
