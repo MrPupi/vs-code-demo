@@ -2,49 +2,8 @@ body {
     font: bold 14px/1.4 system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
     margin: 0 ;
+    background-color: rgb(17, 17, 17);
 }
-
-/* @keyframes borsh {
-  from {
-
-    opacity: 0;
-
-  }
-}
-
-.conteiner:nth-child(1) {
-
-  animation: borsch 2s easy 3.5s both;
-  opacity: 1;
-  transition-delay: 0.5s;
-
-}
-
-.conteiner:nth-child(2) {
-
-  animation: borsch 2s easy 1s;
-  opacity: 1;
-  transition-delay: 1s;
-
-}
-
-.conteiner:nth-child(3) {
-
-  animation: borsch 2s easy 1s;
-  opacity: 1;
-  transition-delay: 1s;
-
-}
-
-.conteiner:nth-child(4) {
-  
-  animation: borsch 2s easy 1s;
-  opacity: 1;
-  transition-delay: 1s;
-
-} */
-
-
 
 h1 {
   text-transform: uppercase;
@@ -56,9 +15,10 @@ h1 {
 }
 
 header {
-  background-color: black;
+  background-color: rgb(17, 17, 17);
   width: 100%;
   height: 55px;
+  padding: 10px 0;
 }
 
 footer {
@@ -66,11 +26,11 @@ footer {
   top: 100%;
   width: 100%;
   height: 50px;
-  background-color: black;
+  background-color: rgb(17, 17, 17);
   text-align: right;
 }
 
-span {
+#foot {
   color: orange;
   text-transform: capitalize;
   margin: 10px 0px 0 0;
@@ -90,16 +50,29 @@ sup {
   text-shadow: 0px 0px 6px rgb(190, 137, 38);
 }
 
-a {
+div> a, .animated{
   text-decoration: none;
-  color: black;
+  color: azure;
   position: relative;
   text-transform: capitalize;
   padding-bottom: 3px;
   font-size: large;
 }
 
-a::before {
+.animated, .port, #foot {
+  user-select: none;
+  pointer-events: none;
+}
+
+.center {
+  transform: translate(0px, 75px);
+}
+
+.animated {
+ text-shadow: 0px 0px 6px rgba(240, 255, 255, 0.6);
+}
+
+/* a::before {
   content: '';
   width: 100%;
   height: 2px;
@@ -116,9 +89,9 @@ a:hover::before {
   transform: scaleX(1);
   transform-origin: left;
   
-}
+} */
 
-a::after {
+div>a::after {
   content: '';
   width: 100%;
   height: 2px;
@@ -132,7 +105,7 @@ a::after {
   box-shadow: 0px 0px 12px 0px rgb(255, 205, 69);
 }
 
-a:hover::after {
+div>a:hover::after {
   transform: scaleX(1);
   transform-origin: left;
   
