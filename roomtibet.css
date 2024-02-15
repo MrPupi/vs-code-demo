@@ -20,10 +20,7 @@ img {
   font-family: qnhg-n4, adobe-notdef;
   font-weight: bolder;
   font-size: 26px;
-  @font-face {
-    font-family: sans-serif;
-    src: url();
-  }
+  margin: 80px 100px;
 }
 
 #img1 {
@@ -77,6 +74,13 @@ img {
   color: azure;
 }
 
+#imgitext, .imgtext{
+  display: grid;
+  grid-template-columns: 0fr 300px;
+  align-items: center;
+  justify-content: center;
+}
+
 option {
   color: #292b2c;
 }
@@ -95,6 +99,7 @@ label {
   width: 200px;
   font-size: 20px;
   /* transform: translate(50px, 30px); */
+  margin-top: 30px;
   background-color: #1a3e3e;
   color: azure;
   border-radius: 8px;
@@ -126,7 +131,7 @@ label {
   display: flex;
   list-style-type: none ;
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 20px;
   color: azure;
 }
 
@@ -147,8 +152,13 @@ body {
 }
 
 #mountein {
-  gap: 100px;
+  gap: 250px;
 }
+
+#header, #nopezyavka {
+  margin: 50px auto;
+}
+
 
 #mountein {
   background-image: url(m_9c01e5a7294e7b1cbebc53a59a7d48e8.jpg);
