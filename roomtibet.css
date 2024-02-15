@@ -142,7 +142,7 @@ body {
   overflow-x: hidden;
 } 
 
-.conteiner, #mountein,#header, #nopezyavka {
+.conteiner, #mountein,#header {
   display: grid;
 }
 
