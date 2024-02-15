@@ -1,0 +1,31 @@
+.calculator {
+  display: grid;
+  grid-template-columns: no-repeat;
+  grid-template-rows: no-repeat;
+  margin: 50px auto;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+  }
+
+  .calculator>.numbers {
+    grid-template-rows: 1fr 90px;
+
+  }
+  
+  span {
+    font-size: xx-large;
+
+  }
+
+  /* header, .div1, .div2 {
+    height: 20px;
+    width: 100px;
+  } */
+
+  .div1, .div2 {
+    display: grid   ;
+  }
+  
