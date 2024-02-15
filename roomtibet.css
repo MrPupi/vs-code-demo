@@ -142,11 +142,11 @@ body {
   overflow-x: hidden;
 } 
 
-.conteiner, #header, #nopezyavka {
+.conteiner, #mountein,#header, #nopezyavka {
   display: grid;
 }
 
-#header {
+#mountein {
   gap: 100px;
 }
 
