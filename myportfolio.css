@@ -1,10 +1,52 @@
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: bold;
+  font-family: "Podkova", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
   padding: 0;
   margin: 0 ;
   background-color: rgb(17, 17, 17);
   overflow-x: hidden;
+}
+
+#metext_btn {
+  background-color: transparent;
+  border: 1px beige solid;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  transition: 0.4s;
+  transform: translate(100px, 0px);
+}
+
+#metext_btn:hover {
+  transition: 0.4s;
+}
+
+#metext_btn::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 4px;
+  bottom: -4px;
+  left: 0;
+  background-color: azure;
+  filter: blur(2px);
+  transform-origin: center;
+  transition:  0.4s;
+  transform: scale(0);
+}
+
+#metext_btn:hover::after {
+  width: 100%;
+  transform-origin: space-between;
+  transition:  0.4s;
+  transform: scale(1);
+}
+
+#metext_btn > #metext_span_1 {
+  text-transform: capitalize;
+  color: azure;
 }
 
 @media screen and (min-width:414px){
@@ -146,7 +188,7 @@ width: 40px;
 height: 40px;
 position: absolute;
 top: 50px;
-left: 100px;
+left: 120px;
 }
 
 .boxes p {
